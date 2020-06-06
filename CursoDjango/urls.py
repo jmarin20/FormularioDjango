@@ -21,5 +21,6 @@ urlpatterns = [
     path('', HomeView.home, name='home'),
     path('pagina/', HomeView.pagina1, name='pagina1'),
     path('pagina2/<int:parametro1>', HomeView.pagina2, name='pagina2'),
-    path('pagina3/<int:parametro1>/<int:parametro2>', HomeView.pagina3, name='pagina3')
+    path('pagina3/<int:parametro1>/<int:parametro2>', HomeView.pagina3, name='pagina3'),
+    path('formulario/', HomeView.formulario, name='formularioPrueba')
 ]
